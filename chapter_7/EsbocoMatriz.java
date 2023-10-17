@@ -19,11 +19,7 @@ public class EsbocoMatriz {
    }
 
    public ArrayList<Integer> getValores() {
-      ArrayList<Integer> str = new ArrayList<>();
-      for(int valor : valores) {
-         str.add(valor);
-      }
-      return str;
+      return this.valores;
    }
 
    public void setValores(ArrayList<Integer> valores) {
