@@ -1,0 +1,8 @@
+# Compiled class file
+*.class
+
+### VS Code ###
+.vscode/
+
+### MacOS System ###
+.DS_Store
