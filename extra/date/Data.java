@@ -1,4 +1,4 @@
-package udemy_java;
+package date;
 
 import java.time.Duration;
 import java.time.Instant;
