@@ -21,5 +21,7 @@ public class TesteData {
       System.out.println("Day of Year: " + date.getDayOfYear());
       System.out.println("Month: " + date.getMonthValue());
       System.out.println("Year: " + date.getYear());
+
+      input.close();
    }
 }

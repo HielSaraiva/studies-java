@@ -1,0 +1,10 @@
+# Ignore os arquivos de sistema do Mac
+.DS_store
+
+# VSCODE
+.vscode/
+
+# IDEA
+.idea/
+*.iml
+.out/
