@@ -1,10 +1,29 @@
-# Ignore os arquivos de sistema do Mac
-.DS_store
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
-# VSCODE
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
 .vscode/
 
-# IDEA
-.idea/
-*.iml
-out/
+### Mac OS ###
+.DS_Store
