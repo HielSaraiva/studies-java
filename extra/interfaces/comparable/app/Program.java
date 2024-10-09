@@ -1,5 +1,6 @@
 package interfaces.comparable.app;
 
+import interfaces.comparable.entities.Employee;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -7,13 +8,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import interfaces.comparable.entities.Employee;
-
 public class Program {
    public static void main(String[] args) {
 
       List<Employee> list = new ArrayList<>();
-      String path = "/Users/hielsaraiva_/Projects/Java_Deitel/extra/interfaces/comparable/in.txt";
+      String path = "/Users/hielsaraiva_/Programming Stuffs/Studies/studies-java-deitel/extra/interfaces/comparable/in.txt";
 
       try (BufferedReader br = new BufferedReader(new FileReader(path))) {
 
