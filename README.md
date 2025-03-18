@@ -1,4 +1,3 @@
-# Java Deitel Studies
+# Java Studies
 
-- Resolutions of some questions of Deitel book.
-- Studies about some extra stuffs (date, exception, files, interface, etc).
+- Studies of some subjects in Java language
